@@ -1,0 +1,52 @@
+.container {
+	margin: 100px 200px 20px 200px;
+
+	.top {
+		display: flex;
+		gap: 50px;
+		justify-content: center;
+		.left {
+			gap: 50px;
+			display: flex;
+			flex: 1;
+			.item {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+		.right {
+			display: flex;
+			gap: 50px;
+			flex: 1;
+			.item {
+				span {
+					text-align: justify;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	.bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 50px;
+		.left {
+			span {
+				display: flex;
+				align-items: center;
+				p {
+					font-weight: bold;
+					font-size: 20px;
+					margin-left: 10px;
+					color: blue;
+				}
+				svg {
+					height: 50px;
+					width: 50px;
+					color: aqua;
+				}
+			}
+		}
+	}
+}

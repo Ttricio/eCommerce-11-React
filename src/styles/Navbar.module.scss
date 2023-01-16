@@ -1,0 +1,70 @@
+.container {
+	height: 80px;
+	align-items: center;
+
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 30px;
+
+		.left {
+			display: flex;
+			align-items: center;
+			gap: 25px;
+			.item {
+				display: flex;
+				align-items: center;
+				font-size: 18px;
+				img {
+					height: 30px;
+					width: 30px;
+				}
+				svg {
+					height: 20px;
+					width: 20px;
+				}
+			}
+		}
+		.center {
+			display: flex;
+			align-items: center;
+			font-size: 30px;
+			letter-spacing: 3px;
+		}
+		.right {
+			display: flex;
+			align-items: center;
+			gap: 25px;
+			.icons {
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				.cartIcon {
+					display: flex;
+					position: relative;
+					span {
+						font-size: 15px;
+						width: 25px;
+						height: 25px;
+						border-radius: 50%;
+						background-color: rgb(133, 158, 212);
+						align-items: center;
+						justify-content: center;
+						display: flex;
+						color: white;
+						position: absolute;
+						top: -10px;
+						right: -15px;
+					}
+				}
+				svg {
+					width: 30px;
+					height: 30px;
+					color: #777;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
